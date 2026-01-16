@@ -1,0 +1,38 @@
+@import "../../_globalColor";
+
+.footer-text {
+  text-align: center;
+  color: $subTitle !important;
+
+  &:hover {
+    color: $textColor !important;
+  }
+
+  a {
+    text-decoration: none;
+    color: $subTitle !important;
+  }
+}
+
+.footer-logo-name {
+  font-family: "Agustina Regular";
+  font-weight: bold;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  padding: 0 10px;
+}
+
+.dark-mode {
+  color: $textColorDark !important;
+}
+
+.footer-div {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 480px) {
+  .footer-div {
+    padding-bottom: 2rem;
+  }
+}
